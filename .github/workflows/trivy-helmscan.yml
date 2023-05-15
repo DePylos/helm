@@ -9,7 +9,7 @@ jobs:
       security-events: write # To upload sarif files
     steps:
       - name: Checkout
-        uses: actions/checkout@3.5.2 # tag=v3.1.0
+        uses: actions/checkout@3 # tag=v3.1.0
 
       - name: Set up Helm
         uses: helm/chart-testing-action@v2.4.0 # tag=v3.4
