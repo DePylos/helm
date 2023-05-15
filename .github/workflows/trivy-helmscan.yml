@@ -23,7 +23,7 @@ jobs:
           scan-type: 'config'
           hide-progress: false
           format: 'sarif'
-          scan-ref: 'charts/helmdptest'
+          scan-ref: 'charts/helm'
           output: 'trivy-results1.sarif'
           exit-code: 0
         # severities of vulnerabilities to be displayed
@@ -36,7 +36,7 @@ jobs:
           scan-type: 'config'
           hide-progress: false
           format: 'sarif'
-          scan-ref: 'charts/helmdptest'
+          scan-ref: 'charts/helm'
           output: 'trivy-results2.sarif'
           exit-code: 0
         # severities of vulnerabilities to be displayed
