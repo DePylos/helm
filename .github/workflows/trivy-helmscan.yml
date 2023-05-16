@@ -14,8 +14,8 @@ jobs:
       - name: Set up Helm
         uses: helm/chart-testing-action@v2.4.0 # tag=v3.4
 
-      - name: Set up python
-        uses: actions/setup-python@v4.6.0 # tag=v4.3.0
+     # - name: Set up python
+      #  uses: actions/setup-python@v4.6.0 # tag=v4.3.0
 
       - name: Run Trivy vulnerability scanner in IaC mode ULM
         uses: aquasecurity/trivy-action@master # tag=0.8.0
